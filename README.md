@@ -55,6 +55,7 @@ This package offers a set of functions to use in order to find seed sets with th
 
      Output format:
 	The outputs are printed on standard output stream in the following order
+	
 		First seed set: S_1, S_2,..., S_kl
 		
 		Influence: [Influence of the first kl-seed set], Time: [Total time taken], Memory: [Memory used]
