@@ -28,8 +28,8 @@ This package offers a set of functions to use in order to find seed sets with th
 
 	./el2bin \<input file\> \<output file\>
 
-    <input file>: the path to text file in edge list format: the first line contains the number of nodes n and number of edges m, each of the next m lines describes an edge following the format: <src> <dest> <weight>. Node index starts from 1.
-    <output file>: the path to binary output file
+    \<input file\>: the path to text file in edge list format: the first line contains the number of nodes n and number of edges m, each of the next m lines describes an edge following the format: <src> <dest> <weight>. Node index starts from 1.
+    \<output file\>: the path to binary output file
 
 2. Run LISA to find the seed sets
 
@@ -67,7 +67,7 @@ This package offers a set of functions to use in order to find seed sets with th
 
 3. (Optional) Verify influence spread of a seed set:
 
-	./verifyInf <binary graph file> <seed file> <epsilon> <number of threads> <model: LT or IC>
+	./verifyInf \<binary graph file\> \<seed file\> \<epsilon\> \<number of threads\> \<model: LT or IC\>
 
 
 Examples: find seed sets with number of seeds ranging from 1 to n on the graph network.txt:
