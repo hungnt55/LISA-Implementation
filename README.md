@@ -37,27 +37,20 @@ This package offers a set of functions to use in order to find seed sets with th
 
         -i <binary graph file>
             specify the path to the binary graph file (default: network.bin)
-
         -o <seed output file>
             specify the path to the output file containing selected seeds (default: seeds.out)
-
         -kl <number of seeds>
             number of selected seed nodes in the first seed set(default: 1)
-
-	-ku <number of seeds>
+        -ku <number of seeds>
             number of selected seed nodes in the last seed set(default: n)
-
         -e <epsilon>
             epsilon value in (epsilon,delta)-approximation (see our paper for more details, default: 0.1)
-
-	-d <delta>
+        -d <delta>
             delta value in (epsilon,delta)-approximation (default: 0.01)
-	
-	-t <number of threads>
-	    number of running threads (default: 1)
-	
-	-m <model>
-	    diffusion model (LT or IC, default: LT)
+        -t <number of threads>
+            number of running threads (default: 1)
+        -m <model>
+            diffusion model (LT or IC, default: LT)
 
      Output format:
 	The outputs are printed on standard output stream in the following order
@@ -80,6 +73,7 @@ The sample network network.txt in this case contains only 4 nodes and 4 edges an
 		2 3 0.5
 		1 3 0.6
 		1 4 0.2
+		
 	1. Convert to binary file:
 		./el2bin network.txt network.bin
 	
