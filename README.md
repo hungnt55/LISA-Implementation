@@ -76,6 +76,7 @@ This package offers a set of functions to use in order to find seed sets with th
 
 Examples: find seed sets with number of seeds ranging from 1 to n on the graph network.txt:
 The sample network network.txt in this case contains only 4 nodes and 4 edges and is formated as follows:
+
 		4 4
 		1 2 0.3
 		2 3 0.5
