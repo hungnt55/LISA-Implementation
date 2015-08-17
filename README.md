@@ -26,7 +26,7 @@ This package offers a set of functions to use in order to find seed sets with th
 
 1. Conversion from a text format to binary file
 
-	./el2bin <input file> <output file>
+	./el2bin \<input file\> \<output file\>
 
     <input file>: the path to text file in edge list format: the first line contains the number of nodes n and number of edges m, each of the next m lines describes an edge following the format: <src> <dest> <weight>. Node index starts from 1.
     <output file>: the path to binary output file
