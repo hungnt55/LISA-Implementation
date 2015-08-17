@@ -31,6 +31,7 @@ This package offers a set of functions to use in order to find seed sets with th
     <output file>: the path to binary output file
 
 2. Run LISA to find the seed sets
+
 	./LISA [Options]
 
     Options:
@@ -75,10 +76,13 @@ The sample network network.txt in this case contains only 4 nodes and 4 edges an
 		1 4 0.2
 		
 	1. Convert to binary file:
+	
 		./el2bin network.txt network.bin
 	
 	2. Run LISA with kl=1 and ku=4, epsilon=0.1,delta=0.01:
+	
 		./LISA -i network.bin -kl 1 -ku 4 -e 0.1 -d 0.01
+	
 	The output after running LISA:
 
 		First seed set: 1
