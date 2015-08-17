@@ -64,7 +64,7 @@ This package offers a set of functions to use in order to find seed sets with th
 		...
 		[Addition seed for ku-seed set], [Influence of ku-seed set]
 
-3. (Optional) Verify influence spread of a seed set
+3. (Optional) Verify influence spread of a seed set:
 
 	./verifyInf <binary graph file> <seed file> <epsilon> <number of threads> <model: LT or IC>
 
